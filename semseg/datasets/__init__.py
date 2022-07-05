@@ -1,4 +1,5 @@
 from .ade20k import ADE20K
+from .trains8k import TRAINS8K
 from .camvid import CamVid
 from .cityscapes import CityScapes
 from .pascalcontext import PASCALContext
@@ -38,4 +39,5 @@ __all__ = [
     'iBugMask',
     'CelebAMaskHQ',
     'FaceSynthetics',
+    'TRAINS8K'
 ]
